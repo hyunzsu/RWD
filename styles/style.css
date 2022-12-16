@@ -119,7 +119,8 @@ input[type='search'] {
     position: absolute;
     top: 3.75rem;
     right: var(--spacing-lg);
-    transform: translate(-0.25rem, -0.25rem); /* 패딩 준만큼 내려가보여서추가 */
+    transform: translate(0.25rem, -0.25rem);
+    /* 패딩 준만큼 내려가보여서추가,패딩 써서 햄버거 버튼 옮겨진거를 트랜스폼이 이를 원위치 하는 역할 */
   }
 
   .button--burger {
