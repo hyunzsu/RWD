@@ -342,11 +342,6 @@ input[type='search'] {
   }
 
   /* 데스크탑 메인 메뉴 */
-  .button--burger {
-    display: none;
-  }
-
-  /* 데스크탑 메인 메뉴 */
   .menu {
     background: var(--secondary-color);
     padding: var(--spacing-base) var(--spacing-lg);
