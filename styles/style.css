@@ -102,6 +102,7 @@ input[type='search'] {
 
 /* 공통 메인 콘텐츠 섹션 제목 */
 [class*='__title'] {
+  margin-bottom: var(--spacing-base);
   font-size: var(--text-md); /* 20px */
   font-weight: 700;
   display: flex;
@@ -118,7 +119,7 @@ input[type='search'] {
   color: #212121;
   background: url(./../images/sprite_main.png) no-repeat;
   height: 3.75rem; /* 60px */
-  padding-left: 4rem; /* 64px */
+  padding-left: 4rem; /* 64px, 글자와 배경 띄어줌 */
 }
 
 .spriteBook {
